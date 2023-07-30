@@ -1,8 +1,74 @@
-h1{
-    color: red;
-    text-align: center;
+.computadorLocais, .jogadorLocais{
+    padding: 0%;
+    display: flex;
+    gap: 6%;
+    justify-content: center;   
 }
 
-form{
+.painel{
+    display: flex;
+    flex-direction: column;    
+}
+
+h1{
     text-align: center;
+    
+}
+
+.localComputador, .localJogador{
+    padding: 3mm;
+    background-color:gray;
+    width: 320px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 1%; 
+   
+}
+
+.locais{
+    padding: 3%;
+}
+
+.cartas{
+    display: flex;
+    padding: 3%;
+    gap: 5%;
+}
+
+.carta{
+    background:red;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80%;
+    border-width: 1mm; 
+    border-color: black; 
+    border-style: solid;
+    color: yellow;
+}
+
+.jogador{
+    padding: 0%;
+    display: flex;
+    gap: 10%;
+    justify-content: flex-start;
+}
+
+
+.visor{
+   padding: 0%;
+   width: 70px;
+   height: 12px;
+  
+   color: darkblue;
+}
+
+.round{
+    padding: 3%;
+    justify-content: center;
+    font-size: 400%;   
 }
