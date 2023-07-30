@@ -33,9 +33,9 @@ function rodada(round){
     htmlRound.innerHTML = round+"º"+" ROUND";
 }
 
-//function atualizar(posicao){
-   // console.log("passou aqui");
-//}
+function atualizar(posicao){
+   
+}
 
 function arrastar(evento){
     arrastado = evento.target
@@ -109,7 +109,8 @@ function recebe(evento){
      
     if(arrastado&&evento.target.classList.contains('localJogador')){//&&jogador.mao[arrastado.dataset.posicao].energia<=jogador.energia){ 
         
-        console.log(arrastado.dataset.posicao);
+        arrastado.draggable=false;
+
        // jogador.energia = jogador.mao[arrastado.dataset.posicao].energia - jogador.energia;
 
         if(parseInt(arrastado.dataset.posicao)<3){
