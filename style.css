@@ -18,11 +18,11 @@ h1{
 .localComputador, .localJogador{
     padding: 3mm;
     background-color:gray;
-    width: 320px;
+    min-width: 350px;
     height: 90px;
     display: flex;
     justify-content: flex-start; 
-    gap: 1%; 
+    gap: 3%; 
    
 }
 
